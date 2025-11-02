@@ -9,11 +9,15 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+AND GATE is connected to IN0 AND IN1
+
+This AND gates outputs a logic 1 if both IN0 AND IN1 are a logic 1, and a 0 otherwise.
+
+This AND gate also drives segment A of the 7-segment LED dislay.
 
 ## How to test
 
-Explain how to use your project
+Check if AND gate behaves as expected by testing all four combinations of inputs I0 and I1 and then ensuring that segment A turns OFF only when IN0 and IN1 are both a logic 1.
 
 ## External hardware
 
